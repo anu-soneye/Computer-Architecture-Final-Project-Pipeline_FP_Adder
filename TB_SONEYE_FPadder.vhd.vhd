@@ -48,8 +48,8 @@ END COMPONENT;
 ---------------------------------------------------------------
 
 
-FILE in_file : TEXT open read_mode is 	"SONEYE_FPadder_INPUT.txt";   -- Inputs: Reset, Val_1, Val_
-FILE exo_file : TEXT open read_mode is 	"SONEYE_FPadder_EXP_OUTPUT.txt";   -- Expected output (binary)
+FILE in_file : TEXT open read_mode is 	"SONEYE_FPadder_INPUT_T.txt";   -- Inputs: Reset, Val_1, Val_
+FILE exo_file : TEXT open read_mode is 	"SONEYE_FPadder_EXP_OUTPUT_T.txt";   -- Expected output (binary)
 FILE out_file : TEXT open  write_mode is  "SONEYE_Class_Example_dataout_dacus.txt";
 FILE xout_file : TEXT open  write_mode is "SONEYE_Class_Example_TestOut_dacus.txt";
 FILE hex_out_file : TEXT open  write_mode is "SONEYE_Class_Example_hex_out_dacus.txt";
